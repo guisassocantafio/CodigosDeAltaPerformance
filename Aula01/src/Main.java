@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int alunos = 30;
+        final int alunos = 30;
 
         int rm [] = new int[alunos];
         double nota1 [] = new double[alunos];
