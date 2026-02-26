@@ -4,9 +4,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int rm [] = new int[30];
-        double nota1 [] = new double[30];
-        double nota2 [] =  new double[30];
+        int alunos = 30;
+
+        int rm [] = new int[alunos];
+        double nota1 [] = new double[alunos];
+        double nota2 [] =  new double[alunos];
 
         int n = 0;
         System.out.print("Informe RM (Negativo para encerrar): ");
